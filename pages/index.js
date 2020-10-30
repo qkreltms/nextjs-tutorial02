@@ -5,6 +5,8 @@ import Link from "next/link";
  *
  * I referenced this repository: https://github.com/vercel/preview-mode-demo
  * Feel free to watch it!
+ * NOTE: It may not works in production if you use Chrome, IE and Edge See my discussion: https://github.com/vercel/next.js/discussions/18521
+ * if you in that case you should try it in Firefox
  */
 
 export default function Home({ data, preview, ...rest }) {
