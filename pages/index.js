@@ -15,6 +15,7 @@ export default function Home({ data, preview, ...rest }) {
       <pre>{data.status || "nothing..."}</pre>
       <pre>{preview ? "*You are in preview*" : ""}</pre>
 
+      <p>{process.env.NODE_ENV}</p>
       <p>Or you can see other breeds in preview mode...</p>
       <ul>
         {["hound", "mix", "pomeranian", "pitbull"].map((breed) => (
